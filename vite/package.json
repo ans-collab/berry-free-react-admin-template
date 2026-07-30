@@ -25,10 +25,12 @@
     "simplebar-react": "3.3.2",
     "slick-carousel": "1.8.1",
     "swr": "2.3.7",
-    "vite": "7.2.6",
     "vite-jsconfig-paths": "2.0.1",
     "web-vitals": "5.1.0",
     "yup": "1.7.1"
+  },
+  "overrides": {
+    "motion-dom": "12.23.23"
   },
   "scripts": {
     "start": "vite",
@@ -68,7 +70,8 @@
     "eslint-plugin-react-hooks": "7.0.1",
     "prettier": "3.7.3",
     "prettier-eslint-cli": "8.0.1",
-    "sass": "1.94.2"
+    "sass": "1.94.2",
+    "vite": "^8.1.5"
   },
   "packageManager": "yarn@4.10.3"
 }
